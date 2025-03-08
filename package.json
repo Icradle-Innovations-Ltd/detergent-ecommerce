@@ -1,25 +1,25 @@
 {
-  "name": "detergent-ecommerce",
-  "version": "1.0.0",
-  "main": "server/server.js",
-  "scripts": {
-    "start": "node server/server.js",
-    "dev": "nodemon server/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": ["ecommerce", "detergent", "express", "sqlite"],
-  "author": "Your Name",
-  "license": "ISC",
-  "description": "An e-commerce backend for selling detergents built with Express.js and SQLite",
-  "dependencies": {
-    "bcrypt": "^5.1.1",
-    "express": "^4.21.2",
-    "helmet": "^8.0.0",
-    "jsonwebtoken": "^9.0.2",
-    "nodemailer": "^6.10.0",
-    "sqlite3": "^5.1.7"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.7"
+    "name": "detergent-ecommerce",
+    "version": "1.0.0",
+    "main": "server/server.js",
+    "scripts": {
+      "start": "node server/server.js",
+      "dev": "nodemon server/server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["ecommerce", "detergent", "express", "sqlite"],
+    "author": "Your Name",
+    "license": "ISC",
+    "description": "An e-commerce backend for selling detergents built with Express.js and SQLite",
+    "dependencies": {
+      "bcrypt": "^5.1.1",
+      "express": "^4.21.2",
+      "helmet": "^8.0.0",
+      "jsonwebtoken": "^9.0.2",
+      "nodemailer": "^6.10.0",
+      "sqlite3": "^5.1.7"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.7"
+    }
   }
-}
